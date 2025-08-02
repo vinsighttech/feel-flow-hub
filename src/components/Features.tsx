@@ -40,9 +40,9 @@ const Features = () => {
           {features.map((feature, index) => (
             <div 
               key={index}
-              className="bg-gradient-card p-8 rounded-2xl shadow-card hover:shadow-soft transition-all duration-300 transform hover:-translate-y-2 border border-border/50"
+              className="bg-gradient-card p-8 rounded-xl shadow-card hover:shadow-soft transition-all duration-300 transform hover:-translate-y-1 border border-border/30"
             >
-              <div className="mb-6 p-3 bg-primary/10 rounded-xl w-fit">
+              <div className="mb-6 p-4 bg-primary/5 rounded-lg w-fit">
                 {feature.icon}
               </div>
               <h3 className="text-xl font-semibold text-foreground mb-4">

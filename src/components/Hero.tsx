@@ -35,7 +35,7 @@ const Hero = () => {
               <Button 
                 variant="outline" 
                 size="lg"
-                className="border-white/30 text-white hover:bg-white/10 backdrop-blur-sm px-8 py-4 text-lg transition-all duration-300"
+                className="border-2 border-white text-white bg-white/10 hover:bg-white hover:text-primary backdrop-blur-sm px-8 py-4 text-lg transition-all duration-300 font-medium"
                 onClick={() => document.getElementById('nasil-calisir')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 ⚡ Nasıl Çalışır?
