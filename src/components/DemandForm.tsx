@@ -45,10 +45,10 @@ const DemandForm = () => {
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-white mb-4">
-              Erken Erişim Talep Edin
+              İlk Kullanıcılardan Biri Olun
             </h2>
             <p className="text-xl text-white/90">
-              Ürünümüz piyasaya çıktığında ilk haberdar olanlar arasında olun
+              Lansman tarihini kaçırmayın, özel indirimlerden yararlanın
             </p>
           </div>
 

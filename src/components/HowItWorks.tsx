@@ -4,8 +4,8 @@ const HowItWorks = () => {
   const steps = [
     {
       icon: <Droplet className="w-12 h-12 text-secondary" />,
-      title: "Basit Numune",
-      description: "Sadece küçük bir tükürük damlası gerekir",
+      title: "Basit Test",
+      description: "Sadece küçük bir tükürük damlası yeterli",
       step: "01"
     },
     {
@@ -23,14 +23,14 @@ const HowItWorks = () => {
   ];
 
   return (
-    <section className="py-20 bg-muted/30">
+    <section id="nasil-calisir" className="py-20 bg-muted/30">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            Nasıl Çalışır?
+            3 Adımda Sonuç
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            3 basit adımda sağlığınızı keşfedin
+            Hiç olmadığı kadar kolay sağlık takibi
           </p>
         </div>
 

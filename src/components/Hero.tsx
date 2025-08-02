@@ -16,28 +16,29 @@ const Hero = () => {
           {/* Left Content */}
           <div className="text-center lg:text-left">
             <h1 className="text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              Tükürüğünüzden
+              Bir Damla,
               <span className="block bg-gradient-to-r from-white to-accent bg-clip-text text-transparent">
-                Sağlığınızı Keşfedin
+                Binlerce Bilgi
               </span>
             </h1>
             <p className="text-xl text-white/90 mb-8 leading-relaxed">
-              Parmak boyutundaki akıllı cihazımızla stres seviyenizi, uyku kalitinizi ve mutluluk durumunuzu anlık olarak ölçün. Gelecek sağlık teknolojisi şimdi elinizde.
+              Parmak boyutundaki akıllı cihazımızla stres, uyku ve mutluluk seviyenizi anında ölçün. Sağlığınızın geleceği artık parmaklarınızın ucunda.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
                 size="lg" 
-                className="bg-white text-primary hover:bg-white/90 shadow-glow font-semibold px-8 py-4 text-lg"
+                className="bg-white text-primary hover:bg-white/90 shadow-glow font-semibold px-8 py-4 text-lg transition-all duration-300"
                 onClick={scrollToForm}
               >
-                Erken Erişim Talep Et
+                🚀 Erken Erişim Al
               </Button>
               <Button 
                 variant="outline" 
                 size="lg"
-                className="border-white/30 text-white hover:bg-white/10 backdrop-blur-sm px-8 py-4 text-lg"
+                className="border-white/30 text-white hover:bg-white/10 backdrop-blur-sm px-8 py-4 text-lg transition-all duration-300"
+                onClick={() => document.getElementById('nasil-calisir')?.scrollIntoView({ behavior: 'smooth' })}
               >
-                Nasıl Çalışır?
+                ⚡ Nasıl Çalışır?
               </Button>
             </div>
           </div>

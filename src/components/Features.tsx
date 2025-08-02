@@ -29,10 +29,10 @@ const Features = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            Gelecek Teknolojisi, Bugünde
+            Neden HealthSense?
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Sadece bir damla tükürükle yaşam kalitenizi anlayın ve iyileştirin
+            Tek bir damlayla hayatınızın kalitesini keşfedin ve kontrol edin
           </p>
         </div>
 
